@@ -3,7 +3,13 @@ import { BiPhoneCall } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 import { AiOutlineMail } from 'react-icons/ai'
 import Logo from '../Images/logo.png'
-import {HiOutlineArchiveBox}  from 'react-icons/hi'
+import {HiOutlineInboxIn}  from 'react-icons/hi'
+import {VscAccount}  from 'react-icons/vsc'
+import {CgShoppingCart}  from 'react-icons/cg'
+
+
+
+
 
 const Header = () => {
     return (
@@ -52,9 +58,15 @@ const Header = () => {
 
                         </div>
                         <div className='col-3 d-flex align-items-center justify-content-between'>
-                            <Link></Link>
-                            <Link></Link>
-                            <Link></Link>
+                            <Link className='d-flex'><HiOutlineInboxIn className='fs-3 mx-2 b-0'/>
+                            <span>Wishlist</span>
+                            </Link>
+                            <Link  className='d-flex'><VscAccount className='fs-3 mx-2 b-0' />
+                            <span>Account</span>
+                            </Link>
+                            <Link  className='d-flex'><CgShoppingCart className='fs-3 mx-2 b-0' />
+                            <span>Shopping</span>
+                            </Link>
                         </div>
                     </div>
 
