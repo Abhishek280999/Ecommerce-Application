@@ -37,19 +37,19 @@ const Header = () => {
             <header className='header-upper '>
                 <div className='container-xxl'>
                     <div className='row'>
-                        <div className='col-2 text-center'>
+                        <div className='col-2 m-auto text-center'>
                             <Link to="/">
                                 <img src={Logo} alt="logo" className='img-fluid logo  align-items-center' />
                             </Link>
                         </div>
-                        <div className='col-3 d-flex align-items-center'>
+                        <div className='col-3 d-flex align-items-center mt-3'>
                             <div className="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">All</span>
-                                <input type="text" className="form-control p-2" placeholder="Search Product" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <button className="input-group-text" id="basic-addon2">Search</button>
+                                <input type="text" className="form-control p-2 " placeholder="Search Product" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                <button className="input-group-text " id="basic-addon2">Search</button>
                             </div>
                         </div>
-                        <div className='col-4 d-flex align-items-center justify-content-between text-center m-auto'>
+                        <div className='nav-links col-4 d-flex align-items-center justify-content-between text-center m-auto'>
                             <Link to={'/'}>Home</Link>
                             <Link to={'shop'}>Shop</Link>
                             <Link to={'blog'}>Blog</Link>

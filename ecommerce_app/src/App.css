@@ -81,12 +81,24 @@ button {
   /* border-radius: 10px;
   border: 1px solid var(--lighter); */
 }
+.logo {
+  max-width: 100%;
+  height: 40px;
+}
 
 .input-group button {
   background: transparent;
   font-size: 14px;
 }
+.header-upper{
+  background: var(--lighter1);
+}
+.nav-links a{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--primary1);
 
+}
 
 /*
 Header css end
