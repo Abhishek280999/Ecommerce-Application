@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
-      <section className='banner p-5'>
+      <section className='banner p-1'>
         <div className='container-xxl'>
           <div className='row'>
             <div className='banner-details p-5 d-flex flex-column align-items-start justify-content-center'>
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </section>
 
-      
+
     </>
   )
 }
