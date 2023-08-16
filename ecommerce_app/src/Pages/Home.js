@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <Hero/>
 
 
     </>
