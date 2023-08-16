@@ -35,6 +35,18 @@ const Home = () => {
         </div>
       </section>
 
+    <section className='repair mb-4'>
+      <div className='container-xxl'>
+      <div className='row'>
+        <div className='repair-details  d-flex flex-column align-items-center justify-content-center'>
+        <h5 className='mt-4 text-white'>Repair Services</h5>
+          <h2 className='mb-3 text-white'>On 70% Off on All Products And Accessories</h2>
+          <button>Explore Now</button>
+        </div>
+      </div>
+
+      </div>
+    </section>
 
     </>
   )
