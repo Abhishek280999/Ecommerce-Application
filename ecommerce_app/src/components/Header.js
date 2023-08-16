@@ -14,7 +14,7 @@ import {CgShoppingCart}  from 'react-icons/cg'
 const Header = () => {
     return (
         <>
-            <header className='header-top-strip p-1 shadow-sm'>
+            <header className='header-top-strip p-1 px-4 shadow-md'>
                 <div className='container-xxl'>
                     <div className='row align-item-center'>
                         <div className=' col-6'>
@@ -34,7 +34,7 @@ const Header = () => {
             </header>
 
 
-            <header className='header-upper '>
+            <header className='header-upper px-3'>
                 <div className='container-xxl'>
                     <div className='row'>
                         <div className='col-2 m-auto text-center'>
@@ -57,14 +57,14 @@ const Header = () => {
                             <Link to={'contact'}>Contact</Link>
 
                         </div>
-                        <div className='col-3 d-flex align-items-center justify-content-between'>
-                            <Link className='d-flex'><HiOutlineInboxIn className='fs-3 mx-2 b-0'/>
+                        <div className='nav-links-nav col-3 d-flex align-items-center justify-content-between'>
+                            <Link to={'wishlist'} className='d-flex mx-3'><HiOutlineInboxIn className='fs-3 mx-2 b-0'/>
                             <span>Wishlist</span>
                             </Link>
-                            <Link  className='d-flex'><VscAccount className='fs-3 mx-2 b-0' />
+                            <Link to={'login'} className='d-flex  mx-3'><VscAccount className='fs-3 mx-2 b-0' />
                             <span>Account</span>
                             </Link>
-                            <Link  className='d-flex'><CgShoppingCart className='fs-3 mx-2 b-0' />
+                            <Link to={'cart'} className='d-flex  mx-3'><CgShoppingCart className='fs-3 mx-2 b-0' />
                             <span>Shopping</span>
                             </Link>
                         </div>

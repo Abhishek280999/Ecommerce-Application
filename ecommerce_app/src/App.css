@@ -89,6 +89,7 @@ button {
 .input-group button {
   background: transparent;
   font-size: 14px;
+  color: var(--search);
 }
 .header-upper{
   background: var(--lighter1);
@@ -98,6 +99,9 @@ button {
   text-transform: uppercase;
   color: var(--primary1);
 
+}
+.nav-links-nav a{
+  color: var(--search);
 }
 
 /*
