@@ -153,6 +153,9 @@ color: var(--primary1 );
 
 
 /* HEro css */
+span{
+  font-size: 14px;
+}
 
 .hero-details img {
   width: 100%;
@@ -160,4 +163,18 @@ color: var(--primary1 );
 }
 .hero-details .card {
  border-radius: 10px;
+}
+
+.featured-products .card img{
+  border-radius: 20px;
+}
+
+.featured-products .card {
+  border-radius: 20px;
+  max-width: 250px;
+ 
+}
+
+.featured-products .card span {
+  color: var(--darken);
 }
