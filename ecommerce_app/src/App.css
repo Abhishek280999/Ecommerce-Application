@@ -28,11 +28,14 @@ h1 {
   font-weight: 600;
   font-size: 40px;
   color: var(--search);
+  margin: 10px;
 }
 
 h2 {
   font-weight: 400;
-  font-size: 24px;
+  color: var(--primary1);
+  font-size: 32px;
+  margin: 10px;
 }
 
 
@@ -50,6 +53,7 @@ p{
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
+  margin: 10px;
 
   color: var(--primary1);
 }
@@ -131,4 +135,18 @@ footer{
 
 .footer-details a{
 color: var(--primary1 );
+}
+
+
+
+
+/* home css  */
+
+
+.banner-details{
+  background: url(../src/Images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
 }
