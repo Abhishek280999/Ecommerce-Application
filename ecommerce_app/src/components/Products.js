@@ -178,7 +178,7 @@ const PRODUCTS = [
         {
         id: 18,
         image: img3,
-        name: "Women's Badge of Sport Tee",
+        name: "Women's Badge of Sport ",
         price: 39.90,
         brand: 'Adidas',
         status: 'in stock',
@@ -187,7 +187,7 @@ const PRODUCTS = [
         {
         id: 19,
         image: img4,
-        name: "Men's 1950s Sportswear T-Shirt",
+        name: "Men's 1950s Sportswear",
         price: 49.90,
         brand: 'Levi s',
         status: 'out of stock',
@@ -196,7 +196,7 @@ const PRODUCTS = [
         {
         id: 20,
         image: img5,
-        name: "Men's Tech 2.0 Short Sleeve T-Shirt",
+        name: "Men's Tech  Short Sleeve",
         price: 49.90,
         brand: 'Under Armour',
         status: 'out of stock',
