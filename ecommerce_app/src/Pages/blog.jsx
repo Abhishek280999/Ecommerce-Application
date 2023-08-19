@@ -8,7 +8,7 @@ import b4 from '../Images/blog/b4.jpg'
 import b5 from '../Images/blog/b5.jpg'
 import b7 from '../Images/blog/b7.jpg'
 
-const Blog = () => {
+const blog = () => {
   return <>
   <section className="blog-wrapper p-5">
     <div className="container-xxl">
@@ -16,7 +16,7 @@ const Blog = () => {
       <div className="col-12">
           <div className="shop-details text-center align-items-center">
             <h1 className="text-white">#Read More</h1>
-            <p className='text-white  fs-3'>Get to know what our trusted customers say...</p>
+            <p className='text-white fs-3'>Get to know what our trusted customers say...</p>
           </div>
         </div>
       </div>
@@ -119,4 +119,4 @@ const Blog = () => {
   </>;
 }
 
-export default Blog
+export default blog

@@ -1,4 +1,4 @@
-
+/* eslint-disable no-unused-vars */
 import pr1 from '../Images/products/f1.jpg'
 import pr2 from '../Images/products/f2.jpg'
 import pr3 from '../Images/products/f3.jpg'
@@ -24,17 +24,14 @@ import img6 from '../Images/products/img6.png'
 import img7 from '../Images/products/img7.png'
 import img8 from '../Images/products/img8.png'
 
-
-const PRODUCTS = [
+// eslint-disable-next-line react-refresh/only-export-components
+export const PRODUCTS = [
     {
         id: 0,
         image: pr1,
         name: "Slim Fit Dress Shirt",
         price: 49.90,
         brand: 'Calvin Klein',
-        status:'in stock',
-        rate: '50% Off'
-
         },
         {
         id: 1,
@@ -155,8 +152,8 @@ const PRODUCTS = [
         }
 ];
 
-
- const  PRODUCTS1 = [
+// eslint-disable-next-line react-refresh/only-export-components
+export const  PRODUCTS1 = [
     {
         id: 16,
         image: img1,
@@ -178,7 +175,7 @@ const PRODUCTS = [
         {
         id: 18,
         image: img3,
-        name: "Women's Badge of Sport ",
+        name: "Women's Badge of Sport Tee",
         price: 39.90,
         brand: 'Adidas',
         status: 'in stock',
@@ -187,7 +184,7 @@ const PRODUCTS = [
         {
         id: 19,
         image: img4,
-        name: "Men's 1950s Sportswear",
+        name: "Men's 1950s Sportswear T-Shirt",
         price: 49.90,
         brand: 'Levi s',
         status: 'out of stock',
@@ -196,7 +193,7 @@ const PRODUCTS = [
         {
         id: 20,
         image: img5,
-        name: "Men's Tech  Short Sleeve",
+        name: "Men's Tech 2.0 Short Sleeve T-Shirt",
         price: 49.90,
         brand: 'Under Armour',
         status: 'out of stock',
@@ -230,5 +227,3 @@ const PRODUCTS = [
         rate: 'normal rates'
         }
 ];
-
-export { PRODUCTS, PRODUCTS1 };
