@@ -20,42 +20,42 @@ const array = [
     id: 1,
     image: blog1,
     name: "Marvel Clein",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last updated 3 mins ago',
   },
   {
     id: 2,
     image: blog2,
     name: "Melisa Ivy",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last Updated now',
   },
   {
     id: 3,
     image: blog3,
     name: "Tristian Ann",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last Updated now',
   },
   {
     id: 4,
     image: blog4,
     name: "Phillip Omosh",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last updated now',
   },
   {
     id: 5,
     image: blog2,
     name: "Melisa Ivy",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last updated now',
   },
   {
     id: 6,
     image: blog1,
     name: "Marvel Clein",
-    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
+    name2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit . Doloribus maxime consequatur, ipsam architecto incidunt volup tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.',
     name3: 'Last updated 3 mins ago',
   },
 ]
@@ -81,7 +81,7 @@ const about = () => {
       </div>
       <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
         <h1><b>Who are we?</b></h1>
-        <p className="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
+        <p className="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>  Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
       </div>
     </div>

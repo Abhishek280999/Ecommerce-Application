@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import pr1 from '../Images/products/f1.jpg'
 import pr2 from '../Images/products/f2.jpg'
 import pr3 from '../Images/products/f3.jpg'
@@ -24,7 +24,6 @@ import img6 from '../Images/products/img6.png'
 import img7 from '../Images/products/img7.png'
 import img8 from '../Images/products/img8.png'
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const PRODUCTS = [
     {
         id: 0,
@@ -152,7 +151,6 @@ export const PRODUCTS = [
         }
 ];
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const  PRODUCTS1 = [
     {
         id: 16,

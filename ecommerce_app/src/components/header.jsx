@@ -1,11 +1,8 @@
-/* eslint-disable no-undef */
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable no-unused-vars */
+
 import React, { useContext, useState } from 'react'
 import { ShopContext } from '../components/shopcontext'
 import { CiMail } from 'react-icons/ci'
 import { BiPhoneCall} from 'react-icons/bi'
-import { BsSearch } from 'react-icons/bs'
 import { VscAccount } from 'react-icons/vsc'
 import { CgShoppingCart, CgProductHunt } from 'react-icons/cg'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
