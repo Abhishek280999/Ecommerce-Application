@@ -5,6 +5,8 @@ import Featured_Products from '../components/Featured_Products'
 import NewArrival from '../components/newArrival'
 import img1 from '../Images/banner/b17.jpg'
 import img2 from '../Images/banner/b10.jpg'
+import Blogs from '../components/Blogs'
+import Newsletter from '../components/Newsletter'
 
 
 const Home = () => {
@@ -112,6 +114,9 @@ const Home = () => {
         </div>
       </section>
 
+      <Blogs/>
+
+      <Newsletter/>
     </>
   )
 }
