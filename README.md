@@ -1,3 +1,2 @@
 # Ecommerce-Application
 
-start
